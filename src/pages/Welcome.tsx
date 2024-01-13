@@ -22,11 +22,6 @@ export const Welcome = () => {
     <div className='flex h-full w-full items-stretch justify-between'>
       <div className='relative flex h-full w-full flex-col items-center justify-center'>
         <img
-          src={rightImageSrc}
-          alt='Top-right Alex'
-          className='fixed right-0 top-20 h-full max-h-[18rem] max-w-[30%] object-contain'
-        />
-        <img
           src={usdImg}
           alt='usd-left'
           className='fixed left-0 top-24 h-full max-h-[20rem] max-w-[30%] -translate-y-20 object-contain'
