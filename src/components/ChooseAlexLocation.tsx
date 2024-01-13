@@ -1,5 +1,5 @@
-import inWeedsImg from '../assets/in_weeds.jpg';
-import behindBuildingImg from '../assets/behind_building.svg';
+import inWeedsImg from '../assets/mcd_store.png';
+import behindBuildingImg from '../assets/to_the_moon.jpeg';
 import { Answer } from '@state/RecordTypes/wheres_alex_vxxx';
 
 type HideAlexProps = {

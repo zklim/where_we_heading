@@ -20,7 +20,7 @@ export const AppHeader = () => {
           >
             <img
               loading='lazy'
-              src='/src/assets/mcd.png'
+              src='/assets/mcd.png'
               className='aspect-[2.95] w-[161px] max-w-full self-stretch overflow-hidden fill-white object-cover object-center'
             />
           </button>
