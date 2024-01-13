@@ -1,0 +1,13 @@
+[[package]]
+name = "us_dollar_v0"
+location = "local"
+path = "us_dollar_v0"
+checksum = "bd430dba3b6917432938467b8908e7f6ec0812ab5ba107102568e7c05cd3a747"
+dependencies = []
+
+[[package]]
+name = "multiparty_pvp_utils_v015"
+location = "local"
+path = "multiparty_pvp_utils_v015"
+checksum = "05fc2e2c2915d838e463299db309f5bd31d0831efd2409e20e9d391011308eb3"
+dependencies = []

@@ -14,13 +14,13 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
       <div className='flex gap-5'>
         <AlexButton
           imgSrc={inWeedsImg}
-          text='In the Weeds'
+          text='MCD'
           onClick={() => setAnswer(Answer.InTheWeeds)}
           selected={answer ? answer === Answer.InTheWeeds : undefined}
         />
         <AlexButton
           imgSrc={behindBuildingImg}
-          text='Behind the Building'
+          text='TO THE MOON'
           onClick={() => setAnswer(Answer.BehindTheBuilding)}
           selected={answer ? answer === Answer.BehindTheBuilding : undefined}
         />
@@ -28,11 +28,11 @@ function ChooseAlexLocation({ setAnswer, answer, hiding }: HideAlexProps) {
       <p className='self-center whitespace-nowrap text-center text-sm font-extrabold tracking-tight text-primary-green'>
         {((): string => {
           if (answer === undefined && hiding) {
-            return 'Choose where to hide Alex';
+            return 'Choose where we heading';
           } else if (hiding) {
-            return `You chose to hide Alex ${answer}`;
+            return `You chose ${answer}`;
           } else {
-            return `You think Alex is ${answer}`;
+            return `You think we going ${answer}`;
           }
         })()}
       </p>

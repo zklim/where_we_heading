@@ -1,6 +1,16 @@
 {
-    "program": "wheres_alex_v019.aleo",
+    "program": "where_we_heading_v00.aleo",
     "version": "0.0.0",
     "description": "",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies" : [{
+        "name": "us_dollar_v0.aleo",
+        "location": "local",
+        "path": "us_dollar_v0"
+    },
+    {
+        "name": "multiparty_pvp_utils_v015.aleo",
+        "location": "local",
+        "path": "multiparty_pvp_utils_v015"
+    }]
 }

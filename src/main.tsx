@@ -7,10 +7,10 @@ import { PuzzleWalletProvider } from '@puzzlehq/sdk';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <div className='h-screen w-screen'>
     <PuzzleWalletProvider
-      dAppName="Where's Alex?"
+      dAppName="Where We Heading?"
       dAppDescription='A friendly wager between friends'
-      dAppUrl='https://wheresalex.puzzle.online'
-      dAppIconURL='https://wheresalex.puzzle.online/alex_head.png'
+      dAppUrl='http://localhost:4000/'
+      dAppIconURL='http://localhost:4000/src/assets/mcd.png'
     >
       <App />
     </PuzzleWalletProvider>

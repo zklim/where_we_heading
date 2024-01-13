@@ -1,7 +1,8 @@
 import { useConnect, useAccount } from '@puzzlehq/sdk';
-import rightImageSrc from '../assets/alex_mic_left_tilt.png';
-import leftImageSrc from '../assets/alex_mic_right_tilt.png';
-import bottomImageSrc from '../assets/alexbottom.png';
+import rightImageSrc from '../assets/mcd.png';
+import usdImg from '../assets/usd.webp';
+import leftImageSrc from '../assets/mcd.png';
+import bottomImageSrc from '../assets/mcd.png';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import Button from '@components/Button.js';
@@ -21,19 +22,39 @@ export const Welcome = () => {
     <div className='flex h-full w-full items-stretch justify-between'>
       <div className='relative flex h-full w-full flex-col items-center justify-center'>
         <img
+          src={usdImg}
+          alt='usd-right'
+          className='fixed right-0 top-24 h-full max-h-[18rem] max-w-[30%] object-contain'
+        />
+        <img
+          src={usdImg}
+          alt='usd-right-bottm'
+          className='fixed right-0 bottom-24 h-full max-h-[18rem] max-w-[30%] object-contain'
+        />
+        <img
           src={rightImageSrc}
           alt='Top-right Alex'
-          className='fixed right-0 top-0 h-full max-h-[18rem] max-w-[50%] object-contain'
+          className='fixed right-0 top-0 h-full max-h-[18rem] max-w-[30%] object-contain'
+        />
+        <img
+          src={usdImg}
+          alt='usd-left'
+          className='fixed left-0 top-24 h-full max-h-[20rem] max-w-[30%] -translate-y-20 object-contain'
+        />
+        <img
+          src={usdImg}
+          alt='usd-left-bottom'
+          className='fixed left-0 bottom-[-4rem] h-full max-h-[20rem] max-w-[30%] -translate-y-20 object-contain'
         />
         <img
           src={leftImageSrc}
           alt='Left Alex'
-          className='fixed left-0 top-1/4 h-full max-h-[20rem] max-w-[50%] -translate-y-20 object-contain'
+          className='fixed left-0 top-1/4 h-full max-h-[20rem] max-w-[30%] -translate-y-20 object-contain'
         />
         <h1 className='text-24xl z-10 max-w-full overflow-visible whitespace-nowrap text-center font-extrabold leading-[40.56px] tracking-tight text-primary-white'>
-          WHERE'S
+          WHERE
           <br />
-          ALEX?
+          WE HEADING?
         </h1>
         <p className='z-10 mb-8 mt-8 max-w-[400px] text-center text-base font-bold tracking-tight text-primary-white'>
           A thrilling game showcasing the power of Aleo and the Puzzle
