@@ -22,19 +22,9 @@ export const Welcome = () => {
     <div className='flex h-full w-full items-stretch justify-between'>
       <div className='relative flex h-full w-full flex-col items-center justify-center'>
         <img
-          src={usdImg}
-          alt='usd-right'
-          className='fixed right-0 top-24 h-full max-h-[18rem] max-w-[30%] object-contain'
-        />
-        <img
-          src={usdImg}
-          alt='usd-right-bottm'
-          className='fixed right-0 bottom-24 h-full max-h-[18rem] max-w-[30%] object-contain'
-        />
-        <img
           src={rightImageSrc}
           alt='Top-right Alex'
-          className='fixed right-0 top-0 h-full max-h-[18rem] max-w-[30%] object-contain'
+          className='fixed right-0 top-20 h-full max-h-[18rem] max-w-[30%] object-contain'
         />
         <img
           src={usdImg}
